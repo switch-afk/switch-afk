@@ -1,4 +1,4 @@
-<img src="banner.png" width="100%" />
+<img src="cover.png" width="100%" />
 
 # hey, i'm sybi 👋
 
@@ -6,4 +6,4 @@
 
 Coding the escape route from the system 🕶️
 
-- [linktree](https://linktr.ee/sybimeta)
+- [website](https://www.sybimeta.xyz)
