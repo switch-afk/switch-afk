@@ -54,8 +54,6 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 | [sol-rpc-bench](https://github.com/switch-afk/sol-rpc-bench) | Latency, lag, health and side-by-side RPC comparison | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-rpc-bench/main?label=tests) |
 | [sol-epoch](https://github.com/switch-afk/sol-epoch) | Epoch progress and time left | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-epoch/main?label=tests) |
 
-> Public RPCs rate-limit. For anything heavy, point a tool at your own endpoint. Each repo's README says which environment variable to set.
-
 ---
 
 ## 📚 Maintaining
@@ -66,79 +64,85 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 
 ## 🧰 Stack
 
-### ◎ Solana
+**On-chain programs**
 
-**Core**
-
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Anchor](https://img.shields.io/badge/Anchor-9945FF?style=flat-square)
-![Solana CLI](https://img.shields.io/badge/Solana_CLI-9945FF?style=flat-square&logo=solana&logoColor=white)
-![SPL Token](https://img.shields.io/badge/SPL_Token-9945FF?style=flat-square)
-![Token-2022](https://img.shields.io/badge/Token--2022-9945FF?style=flat-square)
-![Metaplex](https://img.shields.io/badge/Metaplex-000000?style=flat-square)
-![Solana Pay](https://img.shields.io/badge/Solana_Pay-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Pinocchio](https://img.shields.io/badge/Pinocchio-9945FF?style=flat-square)
+![Shank](https://img.shields.io/badge/Shank-000000?style=flat-square)
+![Agave CLI](https://img.shields.io/badge/Agave_CLI-9945FF?style=flat-square&logo=solana&logoColor=white)
 
-**SDKs and wallets**
+**Clients and SDKs**
 
-![Solana Kit](https://img.shields.io/badge/@solana%2Fkit-9945FF?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Solana Kit](https://img.shields.io/badge/@solana%2Fkit-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Program Libraries](https://img.shields.io/badge/@solana--program%2F*-9945FF?style=flat-square)
 ![web3.js](https://img.shields.io/badge/@solana%2Fweb3.js-9945FF?style=flat-square)
+![Codama](https://img.shields.io/badge/Codama-14B86A?style=flat-square)
+![framework-kit](https://img.shields.io/badge/framework--kit-9945FF?style=flat-square)
 ![Wallet Adapter](https://img.shields.io/badge/Wallet_Adapter-9945FF?style=flat-square)
 ![Phantom](https://img.shields.io/badge/Phantom-AB9FF2?style=flat-square)
 ![Solflare](https://img.shields.io/badge/Solflare-FC822B?style=flat-square)
 
-**RPC, data and oracles**
+**Testing and security**
 
-![Helius](https://img.shields.io/badge/Helius-E84125?style=flat-square)
+![Surfpool](https://img.shields.io/badge/Surfpool-FF6B35?style=flat-square)
+![LiteSVM](https://img.shields.io/badge/LiteSVM-9945FF?style=flat-square)
+![Mollusk](https://img.shields.io/badge/Mollusk-2C2C2C?style=flat-square)
+![Trident](https://img.shields.io/badge/Trident_Fuzzing-000000?style=flat-square)
+![cargo-fuzz](https://img.shields.io/badge/cargo--fuzz-000000?style=flat-square&logo=rust&logoColor=white)
+![solana-test-validator](https://img.shields.io/badge/solana--test--validator-9945FF?style=flat-square)
+
+**Infra and data**
+
+![Helius](https://img.shields.io/badge/Helius_DAS_%26_Webhooks-E84125?style=flat-square)
 ![QuickNode](https://img.shields.io/badge/QuickNode-000000?style=flat-square)
-![JSON-RPC](https://img.shields.io/badge/JSON--RPC-9945FF?style=flat-square)
 ![Yellowstone gRPC](https://img.shields.io/badge/Yellowstone_gRPC-9945FF?style=flat-square)
-![Pyth](https://img.shields.io/badge/Pyth-6B3FA0?style=flat-square)
+![Jito](https://img.shields.io/badge/Jito-14B86A?style=flat-square)
+![Firedancer](https://img.shields.io/badge/Firedancer-D1330F?style=flat-square)
+![JSON-RPC](https://img.shields.io/badge/JSON--RPC-9945FF?style=flat-square)
 
-**DeFi and launches**
+**Tokens and assets**
+
+![SPL Token](https://img.shields.io/badge/SPL_Token-9945FF?style=flat-square)
+![Token-2022](https://img.shields.io/badge/Token--2022-9945FF?style=flat-square)
+![Metaplex](https://img.shields.io/badge/Metaplex-000000?style=flat-square)
+![Bubblegum](https://img.shields.io/badge/Bubblegum_cNFTs-000000?style=flat-square)
+![ZK Compression](https://img.shields.io/badge/ZK_Compression-9945FF?style=flat-square)
+![pump.fun](https://img.shields.io/badge/pump.fun-14B86A?style=flat-square)
+
+**DeFi and oracles**
 
 ![Jupiter](https://img.shields.io/badge/Jupiter-2C2C2C?style=flat-square)
 ![Raydium](https://img.shields.io/badge/Raydium-5A4BDA?style=flat-square)
-![pump.fun](https://img.shields.io/badge/pump.fun-14B86A?style=flat-square)
+![Meteora](https://img.shields.io/badge/Meteora-E8478B?style=flat-square)
+![Orca](https://img.shields.io/badge/Orca-FFD15C?style=flat-square&logoColor=black)
+![Pyth](https://img.shields.io/badge/Pyth-6B3FA0?style=flat-square)
+![Switchboard](https://img.shields.io/badge/Switchboard-2C2C2C?style=flat-square)
 
-**Testing**
+**Payments and speed**
 
-![LiteSVM](https://img.shields.io/badge/LiteSVM-9945FF?style=flat-square)
+![Solana Pay](https://img.shields.io/badge/Solana_Pay-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Kora](https://img.shields.io/badge/Kora_Gasless-9945FF?style=flat-square)
+![MagicBlock](https://img.shields.io/badge/MagicBlock-000000?style=flat-square)
 
-### Everything else
-
-**Languages and runtime**
+**Product engineering**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-
-**Web**
-
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![EJS](https://img.shields.io/badge/EJS-B4CA65?style=flat-square&logo=ejs&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Mobile**
-
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-
-**Backend and data**
-
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=flat-square&logo=appwrite&logoColor=white)
-
-**Bots**
-
-![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)
-
-**Tooling and infra**
-
+![Telegram](https://img.shields.io/badge/Telegram_Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord_Bots-5865F2?style=flat-square&logo=discord&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
