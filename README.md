@@ -187,11 +187,33 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
   <img src="https://streak-stats.demolab.com?user=switch-afk&theme=tokyonight&hide_border=true" alt="streak" />
 </p>
 
+---
+
+## 🕹️ Contribution arcade
+
+My contribution graph, played as an arcade game.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/switch-afk/switch-afk/output/pacman-contribution-graph.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/galaga-contribution-graph.svg">
+  <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/switch-afk/switch-afk/output/galaga-contribution-graph.svg">
+</picture>
+
+### Where the work goes
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/github-snake-dark.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/switch-afk/switch-afk/output/github-snake.svg" />
-  </picture>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=switch-afk&theme=tokyonight" alt="profile details" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=switch-afk&theme=tokyonight" alt="repos per language" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=switch-afk&theme=tokyonight" alt="most commit language" width="49%" />
 </p>
 
 ---
