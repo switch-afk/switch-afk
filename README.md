@@ -20,39 +20,39 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 
 | Repo | What it does | Tests |
 | --- | --- | --- |
-| [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) | Paste a signature, get a plain-English summary | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-tx-explain/main?label=tests) |
-| [sol-tx-watch](https://github.com/switch-afk/sol-tx-watch) | Stream a wallet's new transactions live | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-tx-watch/main?label=tests) |
-| [sol-priority-fee](https://github.com/switch-afk/sol-priority-fee) | Current priority fee levels (low / medium / high) | ![tests](https://github.com/switch-afk/sol-priority-fee/workflows/Tests/badge.svg?branch=main) |
+| [sol-tx-explain](https://github.com/switch-afk/sol-tx-explain) | Paste a signature, get a plain-English summary | ![tests](https://github.com/switch-afk/sol-tx-explain/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-tx-watch](https://github.com/switch-afk/sol-tx-watch) | Stream a wallet's new transactions live | ![tests](https://github.com/switch-afk/sol-tx-watch/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-priority-fee](https://github.com/switch-afk/sol-priority-fee) | Current priority fee levels (low / medium / high) | ![tests](https://github.com/switch-afk/sol-priority-fee/actions/workflows/test.yml/badge.svg?branch=main) |
 
 ### Tokens
 
 | Repo | What it does | Tests |
 | --- | --- | --- |
-| [mint-check](https://github.com/switch-afk/mint-check) | Red-flag checker for a token mint | ![tests](https://img.shields.io/github/check-runs/switch-afk/mint-check/main?label=tests) |
-| [sol-holders](https://github.com/switch-afk/sol-holders) | Largest holders of a mint with % of supply | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-holders/main?label=tests) |
+| [mint-check](https://github.com/switch-afk/mint-check) | Red-flag checker for a token mint | ![tests](https://github.com/switch-afk/mint-check/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-holders](https://github.com/switch-afk/sol-holders) | Largest holders of a mint with % of supply | ![tests](https://github.com/switch-afk/sol-holders/actions/workflows/ci.yml/badge.svg?branch=main) |
 
 ### Wallets
 
 | Repo | What it does | Tests |
 | --- | --- | --- |
-| [sol-wallet-profile](https://github.com/switch-afk/sol-wallet-profile) | Balance, owner, activity and token holdings | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-wallet-profile/main?label=tests) |
-| [sol-rent-reclaim](https://github.com/switch-afk/sol-rent-reclaim) | Find empty token accounts and the SOL you can reclaim | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-rent-reclaim/main?label=tests) |
-| [sol-stake-info](https://github.com/switch-afk/sol-stake-info) | Stake account status, lockup, and a wallet's stake accounts | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-stake-info/main?label=tests) |
+| [sol-wallet-profile](https://github.com/switch-afk/sol-wallet-profile) | Balance, owner, activity and token holdings | ![tests](https://github.com/switch-afk/sol-wallet-profile/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-rent-reclaim](https://github.com/switch-afk/sol-rent-reclaim) | Find empty token accounts and the SOL you can reclaim | ![tests](https://github.com/switch-afk/sol-rent-reclaim/actions/workflows/ci.yml/badge.svg?branch=main) |
+| [sol-stake-info](https://github.com/switch-afk/sol-stake-info) | Stake account status, lockup, and a wallet's stake accounts | ![tests](https://github.com/switch-afk/sol-stake-info/actions/workflows/ci.yml/badge.svg?branch=main) |
 
 ### Programs
 
 | Repo | What it does | Tests |
 | --- | --- | --- |
-| [sol-program-info](https://github.com/switch-afk/sol-program-info) | Upgradeable or not, upgrade authority, last deploy, size | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-program-info/main?label=tests) |
-| [sol-idl-peek](https://github.com/switch-afk/sol-idl-peek) | Read a program's on-chain Anchor IDL | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-idl-peek/main?label=tests) |
-| [sol-pda](https://github.com/switch-afk/sol-pda) | Derive and verify program derived addresses | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-pda/main?label=tests) |
+| [sol-program-info](https://github.com/switch-afk/sol-program-info) | Upgradeable or not, upgrade authority, last deploy, size | ![tests](https://github.com/switch-afk/sol-program-info/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-idl-peek](https://github.com/switch-afk/sol-idl-peek) | Read a program's on-chain Anchor IDL | ![tests](https://github.com/switch-afk/sol-idl-peek/actions/workflows/ci.yml/badge.svg?branch=main) |
+| [sol-pda](https://github.com/switch-afk/sol-pda) | Derive and verify program derived addresses | ![tests](https://github.com/switch-afk/sol-pda/actions/workflows/ci.yml/badge.svg?branch=main) |
 
 ### Network
 
 | Repo | What it does | Tests |
 | --- | --- | --- |
-| [sol-rpc-bench](https://github.com/switch-afk/sol-rpc-bench) | Latency, lag, health and side-by-side RPC comparison | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-rpc-bench/main?label=tests) |
-| [sol-epoch](https://github.com/switch-afk/sol-epoch) | Epoch progress and time left | ![tests](https://img.shields.io/github/check-runs/switch-afk/sol-epoch/main?label=tests) |
+| [sol-rpc-bench](https://github.com/switch-afk/sol-rpc-bench) | Latency, lag, health and side-by-side RPC comparison | ![tests](https://github.com/switch-afk/sol-rpc-bench/actions/workflows/test.yml/badge.svg?branch=main) |
+| [sol-epoch](https://github.com/switch-afk/sol-epoch) | Epoch progress and time left | ![tests](https://github.com/switch-afk/sol-epoch/actions/workflows/ci.yml/badge.svg?branch=main) |
 
 ---
 
