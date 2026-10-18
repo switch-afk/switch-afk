@@ -1,7 +1,7 @@
 <img src="cover.png" width="100%" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=9945FF&center=true&vCenter=true&width=640&lines=I+build+everything+on+Solana;Sites%2C+bots%2C+tools+and+apps.;Tested.+Shipped.+Open+source.;Do+only+good+everyday." alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=9945FF&center=true&vCenter=true&width=640&lines=Fast+chain.+Faster+shipping.;Sites%2C+bots%2C+tools+and+apps+on+Solana.;Tested.+Shipped.+Open+source.;Do+only+good+everyday." alt="typing intro" />
 </p>
 
 <p align="center">
@@ -10,13 +10,11 @@
   <a href="https://github.com/switch-afk/awesome-solana-builders"><img src="https://img.shields.io/badge/awesome-solana--builders-14F195?style=for-the-badge" alt="awesome-solana-builders" /></a>
 </p>
 
-- [website](https://www.sybimeta.xyz)
-
 ---
 
 ## 🛠️ What I build
 
-I build everything on Solana: sites, bots, tools and apps. Here is the open-source set, each repo with its own test suite and CI.
+Solana is where I build: sites, bots, tools and apps. Here is the open-source set, each repo with its own test suite and CI.
 
 ### Transactions
 
@@ -68,10 +66,46 @@ I build everything on Solana: sites, bots, tools and apps. Here is the open-sour
 
 ## 🧰 Stack
 
-**Blockchain**
+### ◎ Solana
+
+**Core**
 
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Anchor](https://img.shields.io/badge/Anchor-9945FF?style=flat-square)
+![Solana CLI](https://img.shields.io/badge/Solana_CLI-9945FF?style=flat-square&logo=solana&logoColor=white)
+![SPL Token](https://img.shields.io/badge/SPL_Token-9945FF?style=flat-square)
+![Token-2022](https://img.shields.io/badge/Token--2022-9945FF?style=flat-square)
+![Metaplex](https://img.shields.io/badge/Metaplex-000000?style=flat-square)
+![Solana Pay](https://img.shields.io/badge/Solana_Pay-9945FF?style=flat-square&logo=solana&logoColor=white)
+
+**SDKs and wallets**
+
+![Solana Kit](https://img.shields.io/badge/@solana%2Fkit-9945FF?style=flat-square)
+![web3.js](https://img.shields.io/badge/@solana%2Fweb3.js-9945FF?style=flat-square)
+![Wallet Adapter](https://img.shields.io/badge/Wallet_Adapter-9945FF?style=flat-square)
+![Phantom](https://img.shields.io/badge/Phantom-AB9FF2?style=flat-square)
+![Solflare](https://img.shields.io/badge/Solflare-FC822B?style=flat-square)
+
+**RPC, data and oracles**
+
 ![Helius](https://img.shields.io/badge/Helius-E84125?style=flat-square)
+![QuickNode](https://img.shields.io/badge/QuickNode-000000?style=flat-square)
+![JSON-RPC](https://img.shields.io/badge/JSON--RPC-9945FF?style=flat-square)
+![Yellowstone gRPC](https://img.shields.io/badge/Yellowstone_gRPC-9945FF?style=flat-square)
+![Pyth](https://img.shields.io/badge/Pyth-6B3FA0?style=flat-square)
+
+**DeFi and launches**
+
+![Jupiter](https://img.shields.io/badge/Jupiter-2C2C2C?style=flat-square)
+![Raydium](https://img.shields.io/badge/Raydium-5A4BDA?style=flat-square)
+![pump.fun](https://img.shields.io/badge/pump.fun-14B86A?style=flat-square)
+
+**Testing**
+
+![LiteSVM](https://img.shields.io/badge/LiteSVM-9945FF?style=flat-square)
+
+### Everything else
 
 **Languages and runtime**
 
