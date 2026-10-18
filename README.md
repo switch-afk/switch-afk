@@ -202,6 +202,10 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 ### Where the work goes
 
 <p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=switch-afk&theme=tokyonight" alt="profile details" width="97%" />
+</p>
+
+<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=switch-afk&theme=tokyonight" alt="repos per language" width="48%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=switch-afk&theme=tokyonight" alt="most commit language" width="48%" />
 </p>
