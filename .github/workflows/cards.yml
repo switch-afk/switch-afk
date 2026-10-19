@@ -1,0 +1,39 @@
+name: Update stat cards
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/generate-cards.js
+      - .github/workflows/cards.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: node scripts/generate-cards.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CARDS_USER: ${{ github.repository_owner }}
+          CARDS_OUT: dist
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: cards
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
