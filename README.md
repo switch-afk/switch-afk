@@ -185,8 +185,8 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 ## 📊 Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=switch-afk&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=switch-afk&layout=compact&theme=tokyonight&hide_border=true" alt="top languages" height="160" />
+  <img src="https://raw.githubusercontent.com/switch-afk/switch-afk/cards/stats.svg" alt="stats" height="190" />
+  <img src="https://raw.githubusercontent.com/switch-afk/switch-afk/cards/top-langs.svg" alt="top languages" height="190" />
 </p>
 
 <p align="center">
@@ -203,17 +203,6 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/switch-afk/switch-afk/output/snake.svg" />
     <img alt="contribution snake" src="https://raw.githubusercontent.com/switch-afk/switch-afk/output/snake.svg" />
   </picture>
-</p>
-
-### Where the work goes
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=switch-afk&theme=tokyonight" alt="profile details" width="97%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=switch-afk&theme=tokyonight" alt="repos per language" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=switch-afk&theme=tokyonight" alt="most commit language" width="48%" />
 </p>
 
 ---
