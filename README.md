@@ -16,6 +16,12 @@
 
 Solana is where I build: sites, bots, tools and apps. Here is the open-source set, each repo with its own test suite and CI.
 
+### All in one
+
+| Repo | What it does | Tests |
+| --- | --- | --- |
+| [sol-kit](https://github.com/switch-afk/sol-kit) | One command for every tool below: `npx @sybimeta/sol-kit list` | ![tests](https://github.com/switch-afk/sol-kit/actions/workflows/test.yml/badge.svg?branch=main) |
+
 ### Transactions
 
 | Repo | What it does | Tests |
