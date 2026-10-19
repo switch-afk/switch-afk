@@ -209,4 +209,6 @@ Solana is where I build: sites, bots, tools and apps. Here is the open-source se
 
 ## 🔨 Currently building
 
-More on Solana, shipped one PR at a time.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/switch-afk/switch-afk/cards/building.svg" alt="currently building" width="820" />
+</p>
