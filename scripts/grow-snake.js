@@ -32,10 +32,10 @@ const PALETTES = {
 
 const LEVELS = {
   NONE: 0,
-  FIRST_QUARTER: 1,
-  SECOND_QUARTER: 2,
-  THIRD_QUARTER: 3,
-  FOURTH_QUARTER: 4,
+  FIRST_QUARTILE: 1,
+  SECOND_QUARTILE: 2,
+  THIRD_QUARTILE: 3,
+  FOURTH_QUARTILE: 4,
 };
 
 async function fetchCalendar(user) {
@@ -43,7 +43,7 @@ async function fetchCalendar(user) {
     user(login: $login) {
       contributionsCollection {
         contributionCalendar {
-          weeks { contributionDays { weekday contributionLevel } }
+          weeks { contributionDays { weekday contributionCount contributionLevel } }
         }
       }
     }
@@ -70,7 +70,9 @@ function buildGrid(weeks) {
   const cells = [];
   for (let x = 0; x < cols; x++) {
     for (const day of weeks[x].contributionDays) {
-      cells.push({ x, y: day.weekday, level: LEVELS[day.contributionLevel] || 0 });
+      const known = LEVELS[day.contributionLevel];
+      const level = known !== undefined ? known : day.contributionCount > 0 ? 1 : 0;
+      cells.push({ x, y: day.weekday, level });
     }
   }
   return { cols, cells };
@@ -230,8 +232,9 @@ async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT, 'snake.svg'), render(grid, model, PALETTES.light));
   fs.writeFileSync(path.join(OUT, 'snake-dark.svg'), render(grid, model, PALETTES.dark));
+  const activeDays = grid.cells.filter((cell) => cell.level > 0).length;
   console.log(
-    `wrote snake.svg and snake-dark.svg to ${OUT}: ${grid.cols} weeks, final length ${model.finalLength}, loop ${(model.totalSteps * STEP_SECONDS).toFixed(1)}s`,
+    `wrote snake.svg and snake-dark.svg to ${OUT}: ${grid.cols} weeks, ${activeDays} active days, final length ${model.finalLength}, loop ${(model.totalSteps * STEP_SECONDS).toFixed(1)}s`,
   );
 }
 
