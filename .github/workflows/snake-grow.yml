@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - scripts/grow-snake.js
+      - scripts/snake-route.ts
       - .github/workflows/snake-grow.yml
 
 permissions:
@@ -17,18 +18,33 @@ permissions:
 jobs:
   snake:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
         with:
-          node-version: 20
+          repository: Platane/snk
+          ref: v3.5.0
+          path: snk-src
 
-      - run: node scripts/grow-snake.js
+      - uses: oven-sh/setup-bun@v2
+
+      - run: bun install
+        working-directory: snk-src
+
+      - run: cp scripts/snake-route.ts snk-src/snake-route.ts
+
+      - run: bun run snake-route.ts
+        working-directory: snk-src
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SNAKE_USER: ${{ github.repository_owner }}
+          ROUTE_OUT: ${{ github.workspace }}/route.json
+
+      - run: node scripts/grow-snake.js
+        env:
+          ROUTE_FILE: route.json
           SNAKE_OUT: dist-snake
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
