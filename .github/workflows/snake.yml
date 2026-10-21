@@ -16,12 +16,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#9945FF&color_dots=#ebedf0,#d9c8ff,#b48cff,#9945FF,#14F195
             dist/snake-dark.svg?palette=github-dark&color_snake=#14F195&color_dots=#161b22,#3b2a6e,#6c3fc4,#9945FF,#14F195
+
+      - run: node scripts/add-snake-eyes.js dist
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
