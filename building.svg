@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="334" viewBox="0 0 820 334" role="img" aria-label="Currently building: awesome-solana-builders">
+  <title>Currently building: awesome-solana-builders</title>
+  <rect x="0.5" y="0.5" width="819" height="333" rx="4.5" fill="#1a1b27" stroke="#2f3146"/>
+  <rect x="25" y="18" width="64" height="20" rx="10" fill="#14f195"/>
+  <text x="57" y="32" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" font-weight="700" fill="#1a1b27">LATEST</text>
+  <text x="101" y="34" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="20" font-weight="600" fill="#70a5fd">awesome-solana-builders</text>
+  <text x="795" y="34" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">last commit 11d ago</text>
+  <text x="25" y="60" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#7f8aa3">A curated list of tools, libraries, APIs and learning resources for people building on Solana</text>
+  <text x="25" y="90" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="700" fill="#bf91f3">&#8250;</text>
+  <text x="42" y="90" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">fix: restore RugCheck, its domain resolves again (#19)</text>
+  <text x="795" y="90" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">11d ago</text>
+  <text x="25" y="112" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="700" fill="#bf91f3">&#8250;</text>
+  <text x="42" y="112" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">fix: remove RugCheck, its domain no longer resolves (#18)</text>
+  <text x="795" y="112" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">12d ago</text>
+  <text x="25" y="134" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="700" fill="#bf91f3">&#8250;</text>
+  <text x="42" y="134" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">feat: add sol-kit (#16)</text>
+  <text x="795" y="134" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">12d ago</text>
+  <line x1="25" y1="158" x2="795" y2="158" stroke="#2f3146"/>
+  <text x="25" y="182" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" font-weight="600" fill="#7f8aa3">ALSO MOVING</text>
+  <circle cx="30" cy="204" r="3.5" fill="#bf91f3"/>
+  <text x="42" y="208" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="600" fill="#70a5fd">sol-kit</text>
+  <text x="256" y="208" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">feat: add bench, mint and wallet tools, release 0.2.0 (#9)</text>
+  <text x="795" y="208" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">12d ago</text>
+  <circle cx="30" cy="230" r="3.5" fill="#bf91f3"/>
+  <text x="42" y="234" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="600" fill="#70a5fd">solana-next-template</text>
+  <text x="256" y="234" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">Update ESLint, TypeScript, @types/node and React (#12)</text>
+  <text x="795" y="234" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">14d ago</text>
+  <circle cx="30" cy="256" r="3.5" fill="#bf91f3"/>
+  <text x="42" y="260" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="600" fill="#70a5fd">sol-holders</text>
+  <text x="256" y="260" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">docs: add README, CHANGELOG, CONTRIBUTING and prepare v0.1.0…</text>
+  <text x="795" y="260" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">14d ago</text>
+  <circle cx="30" cy="282" r="3.5" fill="#bf91f3"/>
+  <text x="42" y="286" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" font-weight="600" fill="#70a5fd">sol-stake-info</text>
+  <text x="256" y="286" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13" fill="#38bdae">docs: README, CHANGELOG and CONTRIBUTING for v0.1.0 (#6)</text>
+  <text x="795" y="286" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" fill="#7f8aa3">15d ago</text>
+  <text x="25" y="318" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10" fill="#7f8aa3">Auto-updated from my latest public commits. Updated 2026-10-31 15:46 UTC</text>
+</svg>
